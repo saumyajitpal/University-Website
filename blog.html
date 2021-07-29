@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!-- Unicorn Adding Link -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <!--HEADER-->
+    <section class="sub-header">
+        <nav>
+            <a><img src="./Images/logo.png"/></a>
+            <div class="nav-links" id="navLinks">
+                <i class="uil uil-multiply" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="./index.html" >Home</a></li>
+                    <li><a href="./about.html" >About</a></li>
+                    <li><a href="./course.html" >Course</a></li>
+                    <li><a href="./blog.html" >Blog</a></li>
+                    <li><a href="./contact.html" >Contact</a></li>
+                </ul>
+            </div>
+            <i class="uil uil-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="main-text">
+            <h1>Our Online Programs</h1> 
+        </div>
+    </section>
+    
+    <section class="blogcontent">
+        <div class="blog-row">
+            <div class="blog-left-col">
+                <img src="./Images/graduation.jpg" alt="Picture">
+                <h2>Our Certificate & Online Programs </h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui praesentium quo veritatis deserunt impedit. Magnam veritaboriosam. Aliquam hic architecto id laboriosam minus officia sunt harum explicabo!</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui praesentium quo veritatis deserunt impedit. Magnam veritatis mollitia hic iusto et consequatur accusamus aliqmpora laboriosam. Aliquam hic architecto id laboriosam minus officia sunt harum explicabo!</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui praesentium quo veritatis deserunt impedit. Magnam veritatis mollitia hic iusto et consequatur accusamus imus officia, maiores, blanditiis recusandae nostrum tempora laboriosam. Aliquam hic architecto id laboriosam minus officia sunt harum explicabo!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit in corporis, esse sed similique rerum autem sapiente. Quaerat voluptate placeat nesciunt quae molestiae tempore exercio voluptates atque corporis veritatis suscipit ex eveniet omnis nobis impedit est quam accusantium perferendis cupiditate, repellat aliquid magni, temporibus expedita error. Magni, quis omnis eaque a ad maxime earum porro quas quae provident eius autem non sapiente?</p>
+                <br>
+            </div>
+            <div class="blog-right-col">
+                <h3>Post Catagories</h3>
+                <div>
+                    <spam>Chemical Engineering</spam>
+                    <span>50</span>
+                </div>
+                <div>
+                    <spam>Information Technology</spam>
+                    <span>85</span>
+                </div>
+                <div>
+                    <spam>Mechanical Engineering</spam>
+                    <span>48</span>
+                </div>
+                <div>
+                    <spam>Biotechnology</spam>
+                    <span>60</span>
+                </div>
+                <div>
+                    <spam>Civil Engineering</spam>
+                    <span>20</span>
+                </div>
+                <div>
+                    <spam>Computer Science</spam>
+                    <span>78</span>
+                </div>
+                <div>
+                    <spam>Industrial Design</spam>
+                    <span>68</span>
+                </div>
+                <div>
+                    <spam>Visual Communication</spam>
+                    <span>85</span>
+                </div>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+        
+    </section>
+
+
+
+
+    <!--Footer-->
+    <section class="footer">
+        <div>
+            <p>All the images used in this website are taken from google and this website was made as part of practice. All images link can be acessed by clicking the button below</p>
+        </div>
+        <div >
+            <a href="./Resources.pdf" target="blank" class="btn-2">Resource</a>
+        </div>
+        <div class="icon">
+            <i class="uil uil-facebook-f"></i>
+            <i class="uil uil-instagram"></i>
+            <i class="uil uil-twitter"></i>
+            <i class="uil uil-linkedin-alt"></i>
+        </div>
+        <p>Made By Saumyajit</p>
+    </section>
+
+    <!--JavaScript Toggle Menu-->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function hideMenu(){
+            navLinks.style.right="-46%"
+        }
+        function showMenu(){
+            navLinks.style.right="0%"
+        }
+    </script>
+</body>
+</html>

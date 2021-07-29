@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!-- Unicorn Adding Link -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <!--HEADER-->
+    <section class="sub-header">
+        <nav>
+            <a><img src="./Images/logo.png"/></a>
+            <div class="nav-links" id="navLinks">
+                <i class="uil uil-multiply" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="./index.html" >Home</a></li>
+                    <li><a href="./about.html" >About</a></li>
+                    <li><a href="./course.html" >Course</a></li>
+                    <li><a href="./blog.html" >Blog</a></li>
+                    <li><a href="./contact.html" >Contact</a></li>
+                </ul>
+            </div>
+            <i class="uil uil-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="main-text">
+            <h1>About Us</h1>
+            
+            
+        </div>
+    </section>
+    <!--ABOUT US-->
+    <section class="aboutus">
+        <div class="aboutus-col">
+            <h1>World's Largest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo explicabo tempora asperiores, assumenda natus voluptatibus nisi quia sint dignissimos. Consectetur, libero perferendis eaqueam ut expedita minus aut sapiente quasi, voluptatem nobis asperiores sint. Quam numquam quo iureriores nesciunt nam sint enim animi nihil, dolores eaque aperiam dolorum, ullam id velit.</p>
+            <a href="" class="btn-3">Explore Us</a>
+        </div>
+        <div class="aboutus-col">
+            <img src="./Images/aboutus.jpg" alt="About pic"/>
+        </div>
+    </section>
+
+
+
+
+    <!--Footer-->
+    <section class="footer">
+        <div>
+            <p>All the images used in this website are taken from google and this website was made as part of practice. All images link can be acessed by clicking the button below</p>
+        </div>
+        <div >
+            <a href="./Resources.pdf" target="blank" class="btn-2">Resource</a>
+        </div>
+        <div class="icon">
+            <i class="uil uil-facebook-f"></i>
+            <i class="uil uil-instagram"></i>
+            <i class="uil uil-twitter"></i>
+            <i class="uil uil-linkedin-alt"></i>
+        </div>
+        <p>Made By Saumyajit</p>
+    </section>
+
+    <!--JavaScript Toggle Menu-->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function hideMenu(){
+            navLinks.style.right="-46%"
+        }
+        function showMenu(){
+            navLinks.style.right="0%"
+        }
+    </script>
+</body>
+</html>

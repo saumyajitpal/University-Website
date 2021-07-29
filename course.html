@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!-- Unicorn Adding Link -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <!--HEADER-->
+    <section class="sub-header">
+        <nav>
+            <a><img src="./Images/logo.png"/></a>
+            <div class="nav-links" id="navLinks">
+                <i class="uil uil-multiply" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="./index.html" >Home</a></li>
+                    <li><a href="./about.html" >About</a></li>
+                    <li><a href="./course.html" >Course</a></li>
+                    <li><a href="./blog.html" >Blog</a></li>
+                    <li><a href="./contact.html" >Contact</a></li>
+                </ul>
+            </div>
+            <i class="uil uil-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="main-text">
+            <h1>Courses</h1>
+            
+            
+        </div>
+    </section>
+    <!--COURSES-->
+    <section class="course" id="course">
+        <h1>Courses We Offer</h1>
+        <p class="title-description">Lorem ipsum dolor sit amet consecteturEnim, beatae.</p>
+        <div class="course-row">
+            <div class="course-col">
+                <h3>Graduate Programs</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nesciunt, nulla fugit officiis tempora aperiam! Accusamus dolore veniam id dignissimos dolor, deserunt iure expedita adipisci quisquam voluptas illum, provident perspiciatis totam unde quasi facilis blanditiis beatae inventore tenetur dolorum eaque cupiditate asperiores ipsa? Fugit eos totam deserunt tempore, voluptas numquam?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate Programs</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, qui placeat pariatur cupiditate rem illo. Repellat consectetur itaque ab cumque obcaecati earum laudantium voluptate recusandae ad explicabo. Nobis fugiat eaque, sapiente expedita, quam animi consectetur quos sequi impedit ipsum officia nemo repellat non eius laudantium numquam laborum nostrum neque molestiae!</p>
+            </div>
+        </div>
+    </section>
+    <!--Facilities-->
+    <section class="facility">
+        <div>
+            <h1>Facilities</h1>
+            <p class="title-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, vitae!</p>
+        </div>
+        <div class="facility-row">
+            <div class="facility-col">
+                <img src="Images/library.jpg" alt="Library">
+                <h3>Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ducimus!</p>
+            </div>
+            <div class="facility-col">
+                <img src="Images/food.jpg" alt="Food">
+                <h3>Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ducimus!</p>
+            </div>
+            <div class="facility-col">
+                <img src="Images/education.jpg" alt="Education">
+                <h3>Education</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ducimus!</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--Footer-->
+    <section class="footer">
+        <div>
+            <p>All the images used in this website are taken from google and this website was made as part of practice. All images link can be acessed by clicking the button below</p>
+        </div>
+        <div >
+            <a href="./Resources.pdf" target="blank" class="btn-2">Resource</a>
+        </div>
+        <div class="icon">
+            <i class="uil uil-facebook-f"></i>
+            <i class="uil uil-instagram"></i>
+            <i class="uil uil-twitter"></i>
+            <i class="uil uil-linkedin-alt"></i>
+        </div>
+        <p>Made By Saumyajit</p>
+    </section>
+
+    <!--JavaScript Toggle Menu-->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function hideMenu(){
+            navLinks.style.right="-46%"
+        }
+        function showMenu(){
+            navLinks.style.right="0%"
+        }
+    </script>
+</body>
+</html>
